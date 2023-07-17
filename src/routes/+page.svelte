@@ -30,7 +30,18 @@
         Z: `-/_`,
         Æ: `/|=`,
         Ø: `(/)`,
-        Å: `/°\\`
+        Å: `/°\\`,
+
+        "0": "()",
+        "1": "|",
+        "2": "*/_",
+        "3": "}",
+        "4": "<|",
+        "5": "_\\*",
+        "6": "/.",
+        "7": "*/",
+        "8": "{-}",
+        "9": "°/"
     }
     let input = ""
     $: asciified = input.toUpperCase().replace(new RegExp(Object.keys(ascii).join('|'), 'g'), (match) => ascii[match]);
