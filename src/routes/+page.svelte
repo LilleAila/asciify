@@ -47,6 +47,9 @@
             bind:value={input}
         />
         <p class="text-3xl text-primary my-2">{asciified}</p>
+        {#if asciified.length > 0}
+            <p class="text-sm">Discord-compatible:</p>
+        {/if}
         <p class="text-lg text-secondary my-2">{asciified_escaped}</p>
     </div>
 </main>
