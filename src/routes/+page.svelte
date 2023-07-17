@@ -1,4 +1,6 @@
 <script lang="ts">
+    // Numbers: () | */_ } <|  _\* /(noe idk) */ {-} °/
+
     const ascii: { [key: string]: string } = {
         A: `/-\\`,
         B: `|3`,
@@ -46,10 +48,10 @@
             class="input w-full my-2"
             bind:value={input}
         />
-        <p class="text-3xl text-primary my-2">{asciified}</p>
+        <p class="text-3xl text-primary break-all my-2">{asciified}</p>
         {#if asciified.length > 0}
             <p class="text-sm">Discord-compatible:</p>
         {/if}
-        <p class="text-lg text-secondary my-2">{asciified_escaped}</p>
+        <p class="text-lg text-secondary break-all my-2">{asciified_escaped}</p>
     </div>
 </main>
