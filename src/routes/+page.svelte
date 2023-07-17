@@ -1,8 +1,4 @@
 <script lang="ts">
-    import { text } from "@sveltejs/kit";
-
-    // /-\ |3 ( |) |= /= (= |-| | \_| |< |\_ /\\/\ |\\| () |° (). |°\ \_\\- -|- |\_| \\/ \\/\\/ >< \\|/ -/_ /|= (/) /°\
-
     const ascii: { [key: string]: string } = {
         A: `/-\\`,
         B: `|3`,
